@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+div.day {
+  display: grid;
+  /* center horizontally and vertically */
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
